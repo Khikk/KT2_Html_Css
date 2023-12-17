@@ -180,8 +180,8 @@ hr {
 
 .menu-section {
     flex: 0 0 auto;
-    width: 410px; /* Ширина карточки меню */
-    margin-right: 10px; /* Расстояние между карточками */
+    width: 410px; 
+    margin-right: 10px; 
 }
 
 .menu-card {
@@ -203,8 +203,6 @@ hr {
     color: #666;
     margin-bottom: 5px;
 }
-
-
 
 
 
@@ -299,7 +297,6 @@ hr {
 
 
 
-/* Стили для боковой панели */
 .sidebar {
     
     background-image: url('images/form2.jpg'); 
@@ -313,13 +310,11 @@ hr {
     filter: brightness(70%);
 }
 
-/* Стили для заголовка боковой панели */
 .sidebar h2 {
     font-size: 32px;
     margin-top: 250px;
 }
 
-/* Стили для кнопок в боковой панели */
 .sidebar button {
     background-color: rgb(72, 117, 117);
     color: #fff;
@@ -334,12 +329,10 @@ hr {
     border-radius: 1px;
 }
 
-/* Стили для кнопок при наведении на них */
 .sidebar button:hover {
     background-color: #ff6600;
 }
 
-/* Стили для заголовка боковой панели */
 .sidebar h2::before {
     content: '';
     display: block;
@@ -349,18 +342,16 @@ hr {
     margin: 0 auto 10px;
 }
 
-/* Стили для кнопок в боковой панели */
 .sidebar button::before {
     content: '>';
     margin-right: 5px;
     transition: transform 0.3s ease;
 }
 
-/* Анимация при наведении на кнопку */
+
 .sidebar button:hover::before {
     transform: translateX(5px);
 }
-
 
 
 
@@ -375,24 +366,21 @@ footer {
     padding: 20px 0;
 }
 
-/* Стили для контента внутри footer */
+
 .footer-content {
     text-align: center;
     padding-top: 50px;
 }
 
-/* Стили для параграфов внутри footer */
 footer p {
     margin-bottom: 10px;
 }
 
-/* Стили для ссылок внутри footer */
 footer a {
     color: #ff6600;
     text-decoration: none;
 }
 
-/* Стили для ссылок при наведении на них */
 footer a:hover {
     color: #fff;
     text-decoration: underline;
